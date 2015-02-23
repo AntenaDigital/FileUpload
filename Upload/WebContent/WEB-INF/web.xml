@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
+  <display-name>File Upload</display-name>
+
+  <context-param>
+    <description>Onde será salvo os arquivos</description>
+    <param-name>file-upload</param-name>
+    <param-value>
+			C:\Program Files\Apache Software Foundation\Tomcat 8.0\webapps\upload\data
+		</param-value>
+  </context-param>
+</web-app>
